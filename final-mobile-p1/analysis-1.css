@@ -1,0 +1,222 @@
+.header-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--green00);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.placeholder,
+.thng-k {
+  position: absolute;
+  z-index: 1;
+}
+.thng-k {
+  top: 57px;
+  left: 149px;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.placeholder {
+  top: 0;
+  left: 0;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 54px;
+  height: 18px;
+}
+.mobile-signal-icon2,
+.wifi-icon2 {
+  position: absolute;
+  top: 3.3px;
+  left: 294.7px;
+  width: 15.3px;
+  height: 11px;
+  z-index: 1;
+}
+.mobile-signal-icon2 {
+  top: 0.4px;
+  left: 0;
+  width: 17px;
+  height: 10.7px;
+}
+.battery-icon2 {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.power {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.notification-icon {
+  height: 17.5px;
+  width: 15px;
+  position: relative;
+}
+.ionnotifications-item {
+  height: 29.23%;
+  width: 28.95%;
+  position: absolute;
+  margin: 0 !important;
+  top: 12.31%;
+  right: 12.63%;
+  bottom: 58.46%;
+  left: 58.42%;
+  border-radius: 50%;
+  background-color: var(--primary-orange-2);
+  z-index: 1;
+}
+.ionnotifications2,
+.status {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ionnotifications2 {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-11xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.status {
+  position: absolute;
+  top: 0;
+  left: 40.3px;
+  flex-direction: column;
+  gap: 32.2px;
+}
+.connectivity {
+  position: absolute;
+  height: calc(100% - 3.3px);
+  top: 3.3px;
+  bottom: 0;
+  left: 272.7px;
+  width: 66.6px;
+}
+.placeholder-parent {
+  position: absolute;
+  top: 14px;
+  left: 21px;
+  width: 339.3px;
+  height: 66.3px;
+  font-size: var(--font-size-mini);
+}
+.header2 {
+  align-self: stretch;
+  height: 100px;
+  position: sticky;
+  background-color: var(--green00);
+  top: 0;
+  z-index: 99;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.vector-icon5 {
+  width: 18px;
+  height: 17.8px;
+  position: relative;
+}
+.overview-frame,
+.overview2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.overview-frame {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-1);
+}
+.subtract-icon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.mygoal2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+}
+.chart-icon2 {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.chart-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs-5);
+}
+.vector-icon6 {
+  height: 20px;
+  width: 19px;
+  position: relative;
+}
+.analysis-1,
+.menu-mobile2,
+.setting2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.setting2 {
+  width: 40px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-5xs);
+  box-sizing: border-box;
+  height: 40px;
+}
+.analysis-1,
+.menu-mobile2 {
+  position: relative;
+}
+.menu-mobile2 {
+  align-self: stretch;
+  box-shadow: 0-3px 3px rgba(0, 116, 189, 0.15);
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-7xs) var(--padding-11xl);
+  gap: var(--gap-38xl);
+}
+.analysis-1 {
+  width: 100%;
+  background-color: var(--background);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-641xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./create-kpi.css" />
+    <!-- <link rel="stylesheet" href="./my-goal-1.css"> -->
+    <link rel="stylesheet" href="./edit-kpi.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="edit">
+      <div class="edit-child"></div>
+      <header class="ui-status-bars">
+        <img class="battery-icon" alt="" src="./public/battery.svg" />
+
+        <img class="wifi-icon" alt="" src="./public/wifi.svg" />
+
+        <img
+          class="mobile-signal-icon"
+          alt=""
+          src="./public/mobile-signal.svg"
+        />
+
+        <div class="time-style">
+          <b class="b">9:41</b>
+        </div>
+      </header>
+      <b class="qun-l-kpi1">Quản lý KPI</b>
+      <!-- <footer class="menu-mobile1">
+        <div class="overview1">
+          <img
+            class="vector-icon"
+            loading="lazy"
+            alt=""
+            src="./public/vector.svg"
+          />
+        </div>
+        <div class="mygoal">
+          <img
+            class="subtract-icon"
+            loading="lazy"
+            alt=""
+            src="./public/subtract.svg"
+          />
+        </div>
+        <img
+          class="chart-icon"
+          loading="lazy"
+          alt=""
+          src="./public/chart.svg"
+        />
+
+        <div class="setting">
+          <img
+            class="vector-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/vector-1.svg"
+          />
+        </div>
+      </footer> -->
+      <img
+        class="ionarrow-back-icon"
+        loading="lazy"
+        alt=""
+        src="./public/ionarrowback.svg"
+      />
+
+      <img
+        class="ionnotifications-icon"
+        loading="lazy"
+        alt=""
+        src="./public/ionnotifications.svg"
+      />
+
+      <main class="popupcreate-target">
+        <div class="header-parent">
+          <div class="header">
+            <b class="thm-mc-tiu">Sửa mục tiêu</b>
+          </div>
+          <div class="button-container">
+            <button class="component-70 mygoal2">
+              <b class="button">OK</b>
+            </button>
+            <button class="component-701">
+              <b class="button1">Hủy</b>
+            </button>
+          </div>
+          <div class="nameproject-parent">
+            <div class="nameproject">
+              <div class="tn-mc-tiu">Tên mục tiêu :</div>
+              <div class="text-field ">
+                <input
+                  class="enter-text"
+                  placeholder="Nhập tên mục tiêu"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="description">
+              <div class="m-t">Mô tả :</div>
+              <div class="text-field1">
+                <input
+                  class="enter-text1"
+                  placeholder="Mô tả về mục tiêu"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="nameproject1">
+              <div class="thit-lp-ch">Thiết lập chỉ số đánh giá</div>
+              <div class="quantity">
+                <div class="quantity-labels">
+                  <div class="s-gi-hc">Số giờ học trên lớp:</div>
+                </div>
+                <div class="quantity-inputs">
+                  <div class="text-field2 ">
+                    <input
+                      class="enter-text"
+                      placeholder="1,2,3.."
+                      type="text"
+                    />
+                  </div>
+                  <div class="gitun">Giờ/Tuần</div>
+                </div>
+              </div>
+              <div class="quantity1">
+                <div class="s-gi-t-hc-wrapper">
+                  <div class="s-gi-t">Số giờ tự học:</div>
+                </div>
+                <div class="text-field-parent">
+                  <div class="text-field2 ">
+                    <input
+                      class="enter-text"
+                      placeholder="1,2,3.."
+                      type="text"
+                    />
+                  </div>
+                  <div class="gitun1">Giờ/Tuần</div>
+                </div>
+              </div>
+              <div class="quantity2">
+                <div class="s-gi-th-nghim-thc-hnh-wrapper">
+                  <div class="s-gi-th">Số giờ thí nghiệm / thực hành:</div>
+                </div>
+                <div class="text-field-group">
+                  <div class="text-field4">
+                    <div class="enter-text4"></div>
+                  </div>
+                  <div class="gitun2">Giờ/Tuần</div>
+                </div>
+              </div>
+              <div class="quantity3">
+                <div class="s-gi-lm-bi-tp-wrapper">
+                  <div class="s-gi-lm">Số giờ làm bài tập:</div>
+                </div>
+                <div class="text-field-container">
+                  <div class="text-field5">
+                    <div class="enter-text5"></div>
+                  </div>
+                  <div class="gitun3">Giờ/Tuần</div>
+                </div>
+              </div>
+              <div class="quantity4">
+                <div class="thm-ch-s-nh-gi-wrapper">
+                  <div class="thm-ch-s">+ Thêm chỉ số đánh giá:</div>
+                </div>
+                <div class="frame-div">
+                  <div class="text-field6">
+                    <div class="enter-text6"></div>
+                  </div>
+                  <div class="gitun4">Giờ/Tuần</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nameproject2">
+          <div class="thi-gian">Thời gian:</div>
+          <div class="start-parent">
+            <div class="start">
+              <div class="bt-u">Bắt đầu:</div>
+              <button class="date-picker-small">
+                <div class="date-picker-formats">
+                  <div class="yyyy-mm-dd">yyyy-mm-dd</div>
+                  <img
+                    class="icround-calendar-month-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icroundcalendarmonth.svg"
+                  />
+                </div>
+              </button>
+            </div>
+            <div class="end">
+              <div class="kt-thc">Kết thúc:</div>
+              <div class="date-picker-small1">
+                <div class="yyyy-mm-dd-parent">
+                  <div class="yyyy-mm-dd1">yyyy-mm-dd</div>
+                  <img
+                    class="icround-calendar-month-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icroundcalendarmonth.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="menu-mobile">
+        <div class="overview-wrapper">
+          <div class="overview">
+            <img
+              class="vector-icon"
+              loading="lazy"
+              alt=""
+              src="./public/vector.svg"
+            />
+          </div>
+        </div>
+        <div class="mygoal">
+          <img
+            class="subtract-icon"
+            loading="lazy"
+            alt=""
+            src="./public/subtract.svg"
+          />
+        </div>
+        <div class="chart-wrapper">
+          <img
+            class="chart-icon"
+            loading="lazy"
+            alt=""
+            src="./public/chart.svg"
+          />
+        </div>
+        <div class="setting">
+          <img
+            class="vector-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/vector-1.svg"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="./create-kpi.js"></script>
+  </body>
+</html>

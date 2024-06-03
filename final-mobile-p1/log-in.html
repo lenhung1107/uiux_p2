@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./log-in.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="log-in">
+      <div class="log-in-inner">
+        <div class="parent1">
+          <div class="div6">9:41</div>
+          <div class="frame-wrapper1">
+            <div class="mobile-signal-group">
+              <img
+                class="mobile-signal-icon3"
+                alt=""
+                src="./public/mobile-signal.svg"
+              />
+
+              <img class="wifi-icon3" alt="" src="./public/wifi.svg" />
+
+              <img class="battery-icon3" alt="" src="./public/battery.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="logo-v3-01-1-icon" loading="lazy" />
+
+      <main class="frame-main">
+        <section class="logo-v3-01-2-container">
+          <img
+            class="logo-v3-01-2-icon1"
+            alt=""
+            src="./public/logov301-2@2x.png"
+          />
+        </section>
+        <div class="login-form-parent">
+          <div class="login-form">
+            <div class="input-fields4">
+              <b class="email2">Email</b>
+              <div class="text-field4">
+                <img
+                  class="envelope-fill-icon1"
+                  alt=""
+                  src="./public/envelopefill@2x.png"
+                />
+
+                <div class="email3">Email</div>
+              </div>
+            </div>
+            <div class="input-fields5">
+              <b class="mt-khu1">Mật khẩu</b>
+              <div class="text-field5">
+                <div class="bxslock-alt-container">
+                  <img
+                    class="bxslock-alt-icon2"
+                    alt=""
+                    src="./public/bxslockalt.svg"
+                  />
+
+                  <div class="password2">Mật khẩu</div>
+                </div>
+                <img
+                  class="component-192-icon2"
+                  alt=""
+                  src="./public/component-192.svg"
+                />
+              </div>
+            </div>
+            <b class="qun-mt-khu1">Quên mật khẩu?</b>
+            <div class="component-701" onclick="log_in()">
+              <b class="button1">Đăng nhập</b>
+            </div>
+            <div class="social-login">
+              <div class="hoc">hoặc</div>
+              <div class="facebook">
+                <div class="provider-icons">
+                  <img
+                    class="facebook-icon"
+                    alt=""
+                    src="./public/facebook.svg"
+                  />
+                </div>
+                <div class="login-with-facebook">Đăng nhập với Facebook</div>
+              </div>
+              <div class="google">
+                <img
+                  class="image-15-icon"
+                  alt=""
+                  src="./public/image-15@2x.png"
+                />
+
+                <div class="login-with-google">Đăng nhập với Google</div>
+              </div>
+              <div class="microsoft">
+                <div class="component-232">
+                  <div class="facebook-color-parent">
+                    <div class="facebook-color"></div>
+                    <div class="google-color"></div>
+                    <div class="microsoft-color"></div>
+                    <div class="placeholder-color"></div>
+                  </div>
+                </div>
+                <div class="login-with-microsoft">Đăng nhập với Microsoft</div>
+              </div>
+            </div>
+            <div class="noAcc"> 
+              <p > Bạn chưa có tài khoản?  </p>
+              <p class="sign_up" onclick="sign_up()"> Đăng nhập</p>
+            </div>
+           
+          </div>
+         
+        </div>
+      </main>
+    </div>
+    <script >
+      const log_in=()=>{
+    window.location.href = "dashboard.html"
+  }
+  const sign_up=()=>{
+    window.location.href = "signup.html"
+  }
+    </script>
+  </body>
+</html>

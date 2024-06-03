@@ -1,0 +1,119 @@
+.xa-mc-tiu {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 118px;
+}
+.target-item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.delete-child {
+  width: 481px;
+  height: 1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 73px;
+  left: calc(50% - 240.5px);
+  background-color: var(--primary-blue-3);
+}
+.confirmation-message-child {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.confirmation-message {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.bn-c-chc,
+.button4 {
+  position: relative;
+}
+.button4 {
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  font-weight: 700;
+  font-family: var(--h14-regular);
+  color: var(--character-primaryinverse);
+  text-align: left;
+  display: inline-block;
+  min-width: 20px;
+}
+.component-704 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  background-color: var(--green00);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button5 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 47px;
+}
+.component-705 {
+  border-radius: var(--br-9xs);
+  background-color: var(--orange00);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.button-container1,
+.component-70-parent,
+.component-705 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component-70-parent {
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.button-container1 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  color: var(--character-primaryinverse);
+}
+.confirmation-dialog,
+.delete {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--orange00);
+  font-family: var(--h14-regular);
+}
+.confirmation-dialog {
+  align-self: stretch;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-base);
+}
+.delete {
+  width: 100%;
+  position: relative;
+  background-color: var(--character-primaryinverse);
+  padding: 28px 19px 42px;
+  box-sizing: border-box;
+  gap: 45px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-xl);
+}

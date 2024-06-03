@@ -1,0 +1,77 @@
+.menu-mobile1 {
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0-3px 3px rgba(0, 116, 189, 0.15);
+    background-color: var(--surface-card);
+    flex-direction: row;
+    align-items: flex-end;
+    padding: var(--padding-7xs) var(--padding-11xl);
+    gap: var(--gap-38xl);
+  }
+  .overview,
+.overview-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.overview-wrapper {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-1);
+}
+.vector-icon {
+    width: 18px;
+    height: 17.8px;
+    position: relative;
+  }
+  .mygoal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+  }
+  .subtract-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+  }
+  .chart-icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+  }
+  .chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xs-5);
+  }
+  .setting {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .setting {
+    width: 40px;
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--padding-3xs) var(--padding-5xs);
+    box-sizing: border-box;
+    height: 40px;
+  }
+  .vector-icon1 {
+    height: 20px;
+    width: 19px;
+    position: relative;
+  }
